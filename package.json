@@ -1,0 +1,29 @@
+{
+  "name": "excellenceapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Abhisid1705/excellenceapi.git"
+  },
+  "author": "Abhinav",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Abhisid1705/excellenceapi/issues"
+  },
+  "homepage": "https://github.com/Abhisid1705/excellenceapi#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.10.0",
+    "mongoose": "^5.11.18"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
